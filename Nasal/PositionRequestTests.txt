@@ -1,0 +1,23 @@
+instructor_pickHost.confirmHost_dialog.show({valid:1, callsign:"OK-WUT", position:"Kdekoli", listenValid: nil, callbackConfirm:func{print("conf");}});
+
+
+
+instructor_pickHost.confirmHost_dialog.show({valid:1, callsign:"OK-NOT", position:"Jinde", listenValid: nil, callbackConfirm:func{print("conf");}});
+
+
+
+
+
+
+instructor_pickHost.addRequest({valid:1, callsign:"OK-WUT", position:"Kdekoli", listenValid: nil, callbackConfirm:func{print("conf");}});
+
+
+
+instructor_pickHost.addRequest({valid:1, callsign:"OK-NOT", position:"Jinde", listenValid: nil, callbackConfirm:func{print("conf");}});
+
+
+
+
+instructor_pickHost.addRequest({valid:0, callsign:"OK-WTF", position:"Jinde", listenValid: nil, callbackConfirm:func{print("conf");}});
+
+instructor_pickHost.addRequest({valid:1, callsign:"OK-OK", position:"Jinde", listenValid: nil, callbackConfirm:func{print("conf");}});
